@@ -1,0 +1,11 @@
+HEADER    PROTEIN
+COMPND    WATER
+AUTHOR    PETER CARR, QSAD
+ATOM      1  O   UNK     1       0.000   0.000   0.000  1.00  0.00 
+ATOM      2  H   UNK     1      -0.760  -0.584   0.000  1.00  0.00 
+ATOM      3  H   UNK     1       0.760  -0.584   0.000  1.00  0.00 
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1
+MASTER        0    0    0    0    0    0    0    0    3    0    3    0
+END
