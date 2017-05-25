@@ -1,0 +1,6 @@
+PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001 
+Title: ASE job
+
+  O            -0.31117 1            -0.21768 1             0.77211 1
+  H             0.14077 1             0.08767 1            -0.00478 1
+  H             0.16546 1             0.10686 1             1.52627 1
