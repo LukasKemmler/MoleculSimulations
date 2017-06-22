@@ -1,8 +1,8 @@
  *******************************************************************************
- ** Site#: 27415        For non-commercial use only    Version 17.143L 64BITS **
+ ** Site#: 27415        For non-commercial use only    Version 17.163L 64BITS **
  *******************************************************************************
- ** Cite this program as: MOPAC2016, Version: 17.143L, James J. P. Stewart,   **
- ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 345**
+ ** Cite this program as: MOPAC2016, Version: 17.163L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 355**
  *******************************************************************************
  **                                                                           **
  **                                MOPAC2016                                  **
@@ -13,7 +13,7 @@
 
 
  *******************************************************************************
- *  CALCULATION DONE:                                Mon Jun 12 13:09:46 2017  *
+ *  CALCULATION DONE:                                Thu Jun 22 15:36:57 2017  *
  *  PM6        - The PM6 Hamiltonian to be used
  *  NOANCI     - DO NOT USE ANALYTICAL C.I. DERIVATIVES
  *  1SCF       - DO 1 SCF AND THEN STOP 
@@ -31,8 +31,8 @@ PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001
   NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
  
      1      Cl          0.00000000  *   1.50000000  *   2.50000000  *
-     2      Na          0.00000000  *   0.00000000  *   2.46032000  *
-     3      Na          1.50000000  *   0.00000000  *  -0.46617000  *
+     2      Na          0.00000000  *   0.00000000  *  -0.07095000  *
+     3      Na          1.50000000  *   0.00000000  *  -1.80535000  *
  
 
 
@@ -41,8 +41,8 @@ PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001
     NO.       ATOM         X         Y         Z
 
      1        Cl        0.0000    1.5000    2.5000
-     2        Na        0.0000    0.0000    2.4603
-     3        Na        1.5000    0.0000   -0.4662
+     2        Na        0.0000    0.0000   -0.0709
+     3        Na        1.5000    0.0000   -1.8054
 
  General Reference for PM6:
  "Optimization of Parameters for Semiempirical Methods V: Modification of NDDO Approximations
@@ -71,26 +71,26 @@ PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001
 
 
                               PM6 CALCULATION
-                                                       MOPAC2016 (Version: 17.143L)
-                                                       Mon Jun 12 13:09:46 2017
-                                                       No. of days remaining = 345
+                                                       MOPAC2016 (Version: 17.163L)
+                                                       Thu Jun 22 15:36:57 2017
+                                                       No. of days remaining = 355
 
 
 
 
-          FINAL HEAT OF FORMATION =        -14.00340 KCAL/MOL =     -58.59022 KJ/MOL
+          FINAL HEAT OF FORMATION =          5.35900 KCAL/MOL =      22.42207 KJ/MOL
 
 
-          TOTAL ENERGY            =       -266.07263 EV
-          ELECTRONIC ENERGY       =       -329.80600 EV  POINT GROUP:     Cs  
-          CORE-CORE REPULSION     =         63.73337 EV
-          COSMO AREA              =        147.60 SQUARE ANGSTROMS
-          COSMO VOLUME            =        152.45 CUBIC ANGSTROMS
+          TOTAL ENERGY            =       -265.23300 EV
+          ELECTRONIC ENERGY       =       -314.45069 EV  POINT GROUP:     Cs  
+          CORE-CORE REPULSION     =         49.21769 EV
+          COSMO AREA              =        152.96 SQUARE ANGSTROMS
+          COSMO VOLUME            =        154.37 CUBIC ANGSTROMS
 
-          GRADIENT NORM           =        109.31993
-          IONIZATION POTENTIAL    =          4.321350 EV
-          ALPHA SOMO LUMO (EV)    =         -4.321  0.346
-          BETA  SOMO LUMO (EV)    =         -9.785 -0.223
+          GRADIENT NORM           =         29.35547
+          IONIZATION POTENTIAL    =          5.317924 EV
+          ALPHA SOMO LUMO (EV)    =         -5.318 -0.582
+          BETA  SOMO LUMO (EV)    =         -8.012 -1.214
           NO. OF ALPHA ELECTRONS  =          5
           NO. OF BETA  ELECTRONS  =          4
           MOLECULAR WEIGHT        =         81.4325
@@ -98,39 +98,39 @@ PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001
           MOLECULAR DIMENSIONS (Angstroms)
 
             Atom       Atom       Distance
-           Na     3   Cl     1     3.64683
-           Cl     1   Na     2     1.35279
-           Cl     1   Na     2     0.00000
+           Na     3   Cl     1     4.79977
+           Na     2   Na     3     1.07664
+           Na     2   Cl     1     0.00000
 
 
           SCF CALCULATIONS        =         11
  
-          WALL-CLOCK TIME         =          0.070 SECONDS
-          COMPUTATION TIME        =          0.232 SECONDS
+          WALL-CLOCK TIME         =          0.137 SECONDS
+          COMPUTATION TIME        =          0.268 SECONDS
 
           LARGEST ATOMIC GRADIENTS
 
           Atom     Label                  Cartesian Coordinates        |Gradient|
                                          X          Y          Z
 
-             2      Na                 0.00000    0.00000    2.46032     78.166
-             1      Cl                 0.00000    1.50000    2.50000     76.368
-             3      Na                 1.50000    0.00000   -0.46637      2.979
+             1      Cl                 0.00000    1.50000    2.50000     22.232
+             2      Na                 0.00000    0.00000   -0.07095     18.774
+             3      Na                 1.50000    0.00000   -1.80555      3.875
 
 
 
        FINAL  POINT  AND  DERIVATIVES
 
    PARAMETER     ATOM    TYPE            VALUE       GRADIENT
-      1          1 Cl    CARTESIAN X     0.000000    -1.809920  KCAL/ANGSTROM
-      2          1 Cl    CARTESIAN Y     1.500000   -76.331079  KCAL/ANGSTROM
-      3          1 Cl    CARTESIAN Z     2.500000     1.525912  KCAL/ANGSTROM
-      4          2 Na    CARTESIAN X     0.000000     2.916247  KCAL/ANGSTROM
-      5          2 Na    CARTESIAN Y     0.000000    78.028270  KCAL/ANGSTROM
-      6          2 Na    CARTESIAN Z     2.460320    -3.608517  KCAL/ANGSTROM
-      7          3 Na    CARTESIAN X     1.500000    -1.097191  KCAL/ANGSTROM
-      8          3 Na    CARTESIAN Y     0.000000    -1.813509  KCAL/ANGSTROM
-      9          3 Na    CARTESIAN Z    -0.466370     2.092770  KCAL/ANGSTROM
+      1          1 Cl    CARTESIAN X     0.000000    -0.970223  KCAL/ANGSTROM
+      2          1 Cl    CARTESIAN Y     1.500000    10.706479  KCAL/ANGSTROM
+      3          1 Cl    CARTESIAN Z     2.500000    19.459994  KCAL/ANGSTROM
+      4          2 Na    CARTESIAN X     0.000000    -0.580890  KCAL/ANGSTROM
+      5          2 Na    CARTESIAN Y     0.000000    -9.748961  KCAL/ANGSTROM
+      6          2 Na    CARTESIAN Z    -0.070950   -16.034016  KCAL/ANGSTROM
+      7          3 Na    CARTESIAN X     1.500000     1.543137  KCAL/ANGSTROM
+      8          3 Na    CARTESIAN Y     0.000000    -0.958447  KCAL/ANGSTROM
+      9          3 Na    CARTESIAN Z    -1.805550    -3.422452  KCAL/ANGSTROM
 
 
 
@@ -139,14 +139,14 @@ PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001
   NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
  
      1      Cl          0.00000000  *   1.50000000  *   2.50000000  *
-     2      Na          0.00000000  *   0.00000000  *   2.46032000  *
-     3      Na          1.50000000  *   0.00000000  *  -0.46637000  *
+     2      Na          0.00000000  *   0.00000000  *  -0.07095000  *
+     3      Na          1.50000000  *   0.00000000  *  -1.80555000  *
 
                              CARTESIAN COORDINATES
 
    1   Cl        0.000000000     1.500000000     2.500000000
-   2   Na        0.000000000     0.000000000     2.460320000
-   3   Na        1.500000000     0.000000000    -0.466370000
+   2   Na        0.000000000     0.000000000    -0.070950000
+   3   Na        1.500000000     0.000000000    -1.805550000
 
 
            Empirical Formula: Cl Na2  =     3 atoms
@@ -157,48 +157,48 @@ PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001
 
 
           ALPHA EIGENVALUES  
- -25.67602 -10.15817 -10.08349  -9.79277  -4.32135   0.34603   3.81989   4.00692
-   4.32245   4.57106   4.67093   4.73411  98.29839  98.32656  98.35029  98.43460
-  98.43627
+ -24.10214  -8.35413  -8.01783  -8.01289  -5.31792  -0.58208   2.62934   2.77971
+   2.80438   3.25928   3.60212   3.64251 101.52003 101.58013 101.58430 101.76727
+ 101.76730
 
 
            BETA EIGENVALUES 
- -25.65701 -10.14145 -10.08066  -9.78545  -0.22325   0.38669   3.97495   4.03943
-   4.61429   5.01005   5.09418   5.15876  98.30170  98.33103  98.35208  98.43815
-  98.43960
+ -24.09766  -8.34469  -8.01504  -8.01226  -1.21442  -0.47497   2.72484   2.87127
+   2.89805   3.79659   4.00399   4.08445 101.52112 101.58121 101.58503 101.76775
+ 101.76778
 
 
               NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
 
   ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
-    1         Cl          -0.771836        7.7718     1.99754     5.77417     0.00012
-    2         Na           0.774934        0.2251     0.01563     0.20944
-    3         Na          -0.003097        1.0031     0.97908     0.02402
+    1         Cl          -0.853562        7.8536     1.99945     5.85405     0.00006
+    2         Na           0.781096        0.2189     0.11891     0.09999
+    3         Na           0.072466        0.9275     0.90996     0.01758
  DIPOLE           X         Y         Z       TOTAL
- POINT-CHG.    -0.022    -5.561    -0.104     5.562
- HYBRID        -0.167     1.276     0.359     1.336
- SUM           -0.189    -4.285     0.255     4.297
+ POINT-CHG.     0.522    -6.150   -11.144    12.739
+ HYBRID         1.028     0.536    -0.270     1.191
+ SUM            1.551    -5.613   -11.414    12.814
 
 
           ATOMIC ORBITAL ELECTRON POPULATIONS
 
      Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
-    1 Cl   1.99754   1.89519   1.98963   1.88935   0.00002   0.00000   0.00001   0.00005   0.00005
-    2 Na   0.01563   0.10243   0.00443   0.10258
-    3 Na   0.97908   0.00206   0.01492   0.00705
+    1 Cl   1.99945   1.99110   1.96185   1.90110   0.00000   0.00001   0.00002   0.00002   0.00000
+    2 Na   0.11891   0.00993   0.02522   0.06484
+    3 Na   0.90996   0.01122   0.00547   0.00089
 
 
                     (SZ)    =    0.500000
-                    (S**2)  =    0.750033
+                    (S**2)  =    0.750023
 
 
           ATOMIC ORBITAL SPIN POPULATIONS
 
     Atom   Total    s     px     py     pz   x^2-y^2  xz     z^2    yz     xy
          Atomic
-    1 Cl  0.0038  0.000  0.001  0.001  0.002 -0.000  0.000  0.000 -0.000  0.000
-    2 Na  0.0154  0.011  0.001  0.000  0.003
-    3 Na  0.9808  0.967  0.000  0.013  0.001
+    1 Cl  0.0009 -0.000  0.000  0.000  0.001  0.000  0.000  0.000  0.000  0.000
+    2 Na  0.0792  0.069  0.002  0.001  0.008
+    3 Na  0.9199  0.904  0.011  0.005 -0.000
 
  **********************
  *                    *
@@ -208,6 +208,6 @@ PM6 NOANCI 1SCF GRADIENTS AUX(0,PRECISION=9) RELSCF=0.0001
 
 
 
- TOTAL JOB TIME:             0.08 SECONDS
+ TOTAL JOB TIME:             0.15 SECONDS
 
  == MOPAC DONE ==
